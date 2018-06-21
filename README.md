@@ -7,4 +7,6 @@ The number of pictures you want to download.
 ## second to last argument (index: 1 to last)
 The keywords you are interested in.
 ## Example
-ruby paku.rb 5 cat dog
+```
+$ ruby paku.rb 5 cat dog
+```
