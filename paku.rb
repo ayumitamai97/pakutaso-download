@@ -44,7 +44,7 @@ pages = 1 + (num_of_downloading_pics / 30).to_i # ∵ 1ページあたり画像3
 kws.each do |kw|
   encoded_kw = URI.encode kw
 
-  for page in 1..pages do # TODO: ページ数変えられるようにする
+  for page in 1..pages do
 
     # URLに含まれるパラメータoffsetはページ数ではなく、
     # そのページの最初の画像のindexであるため
